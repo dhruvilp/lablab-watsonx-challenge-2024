@@ -1,0 +1,12 @@
+python-dotenv
+streamlit
+fastapi
+wget
+ibm-watsonx-ai
+numpy
+crewai-tools
+crewai
+langchain-ibm
+ibm-watsonx-ai
+# langchain_core
+# typing

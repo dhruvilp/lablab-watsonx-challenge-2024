@@ -12,3 +12,55 @@ Langchain manages the workflow to maintain timely compliance, while Crew AI coor
 * IBM WatsonX AI
 * IBM Granite 13B V2 Chat LLM
 * Meta Llama 2 Chat LLM
+
+## Sample Prompts
+
+Prompt 1: Regulatory Update and Policy Alignment
+User Prompt: "Please review the latest FinCEN alerts and advisories to ensure we are up-to-date with current AML regulations. Based on the updates, adjust our internal policies accordingly and prepare a compliance report detailing any changes or areas of concern."
+Expected Tasks Triggered: Regulatory Change Tracking, Policy Review and Update, Compliance Report Generation
+-------
+Prompt 2: Suspicious Activity Monitoring
+User Prompt: "Monitor all recent transactions for any suspicious activity that could indicate potential money laundering. Generate alerts if suspicious activity is detected and compile a report to be sent to the relevant regulatory bodies."
+Expected Tasks Triggered: Suspicious Activity Monitoring and Reporting, Regulatory Communication and Liaison
+-------
+Prompt 3: Internal Audit and Risk Assessment
+User Prompt: "Conduct an internal audit to assess our current AML compliance. Identify any gaps or weaknesses in our processes and evaluate our AML risk exposure. Based on your findings, develop strategies to mitigate any identified risks."
+Expected Tasks Triggered: Internal Audit and Compliance Assessment, Risk Assessment and Mitigation
+-------
+Prompt 4: Employee Training and Onboarding
+User Prompt: "Ensure all new employees complete their AML training and background checks before they start. Also, review and refresh our AML training materials to ensure they are up-to-date with the latest policies. Schedule training sessions for all current employees to cover any updates."
+Expected Tasks Triggered: Employee Screening and Onboarding Compliance, AML Compliance Training Refresh
+-------
+Prompt 5: Regulatory Communication and Compliance Updates
+User Prompt: "Maintain communication with AML regulatory bodies to stay informed about any new requirements or advisories. Ensure that these updates are communicated to the relevant internal stakeholders and that necessary adjustments are made to our compliance practices."
+Expected Tasks Triggered: Regulatory Communication and Liaison, Policy Review and Update (if needed)
+-------
+Prompt 6: Detailed Compliance Report
+User Prompt: "Generate a comprehensive compliance report that includes details on recent audit findings, any updates to internal policies, and a summary of employee training status. Ensure the report is updated on our compliance dashboards."
+Expected Tasks Triggered: Compliance Report Generation
+-------
+Prompt 7: Training Coordination for Updated Compliance Practices
+User Prompt: "Coordinate and track the scheduling of employee training sessions focused on the latest AML compliance practices. Ensure all employees are notified and that their training status is recorded for future audits."
+Expected Tasks Triggered: Employee Training Coordination, AML Compliance Training Refresh (if updating materials)
+-------
+Prompt 8: Policy Review and External Compliance Liaison
+User Prompt: "Review our internal policies for any necessary updates based on recent FinCEN advisories. Communicate any policy changes to the relevant regulatory bodies and ensure all adjustments are implemented."
+Expected Tasks Triggered: Policy Review and Update, Regulatory Communication and Liaison
+
+## How-to Run
+
+#### Developer Notes
+```sh
+
+python3 -m venv env
+source env/bin/activate
+deactivate
+
+pip install -r requirements.txt
+
+streamlit run fincomply-streamlit.py 
+
+```
+
+#### Author
+Dhruvil Patel, MBA, Full-Stack Software Engineer and AI Enthusiast.
