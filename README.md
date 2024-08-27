@@ -6,6 +6,36 @@ DEMO: https://youtu.be/RvJ0WMWJE0g
 
 Financial institutions in the financial services sector face challenges in complying with evolving AI regulations that mandate transparency, accountability, and data privacy. They are required to implement robust governance frameworks to document AI decision-making processes, conduct regular audits, and ensure the ethical use of AI in high-stakes areas like AML and BSA compliance. Institutions must also adapt to changing regulatory requirements, provide clear explanations of AI model decisions, safeguard against biases, and maintain data privacy. https://thefinancialbrand.com/news/banking-trends-strategies/genai-bankings-best-offense-in-challenging-times-174940/ The proposed solution addresses the compliance challenges by automating key aspects of regulatory monitoring. By using Whisper to transcribe relevant communications, Granite LLM Model to analyze data, and MoA to delegate and automate tasks, the solution ensures efficient tracking of regulatory changes and internal policies. Langchain manages the workflow to maintain timely compliance, while Crew AI coordinates between agents and human officers, enhancing overall adherence to regulations and streamlining the compliance process.
 
+## Possible use cases
+
+Use Case: A pharmaceutical company wants to ensure compliance with Good Manufacturing Practices (GMP).
+Required Data Sources:
+* Regulatory Data: FDA guidance documents, GMP regulations, and industry standards.
+* Internal Policy Data: Company policies on quality control, documentation, and training.
+* Employee Activity Data: Records of employee training, production records, and quality control inspections.
+* External Data: Industry news articles on GMP updates, regulatory enforcement actions, and quality control best practices.
+
+Use Case: A financial services company wants to ensure compliance with anti-money laundering (AML) regulations.
+Required Data Sources:
+* Regulatory Data: Regulations from the Financial Crimes Enforcement Network (FinCEN), Securities and Exchange Commission (SEC), and other relevant authorities.
+* Internal Policy Data: Company policies on customer due diligence, transaction monitoring, and suspicious activity reporting.
+* Employee Activity Data: Records of employee training, customer interactions, and transaction reviews.
+* External Data: News articles on AML trends, regulatory enforcement actions, and industry best practices.
+
+Use Case: A healthcare provider wants to ensure compliance with HIPAA regulations.
+Required Data Sources:
+* Regulatory Data: HIPAA Privacy Rule, Security Rule, and Breach Notification Rule.
+* Internal Policy Data: Company policies on data security, access controls, and incident response.
+* Employee Activity Data: Records of employee training, access logs, and incident reports.
+* External Data: News articles on HIPAA breaches, enforcement actions, and cybersecurity best practices.
+
+Use Case: A manufacturing company wants to ensure compliance with environmental regulations.
+Required Data Sources:
+* Regulatory Data: Environmental Protection Agency (EPA) regulations, state and local environmental laws.
+* Internal Policy Data: Company policies on waste management, emissions control, and environmental impact assessments.
+* Employee Activity Data: Records of employee training, environmental monitoring data, and incident reports.
+* External Data: News articles on environmental regulations, enforcement actions, and industry best practices.
+
 ## Proposed Solution
 ![image](https://raw.githubusercontent.com/dhruvilp/lablab-watsonx-challenge-2024/main/watsonx-streamlit-demo.png)
 
